@@ -1,2 +1,2 @@
-model_checkpoint_path: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_2025_12_10_07_49_01_207409"
-all_model_checkpoint_paths: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_2025_12_10_07_49_01_207409"
+model_checkpoint_path: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_seed136_2025_12_11_07_32_16_745162"
+all_model_checkpoint_paths: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_seed136_2025_12_11_07_32_16_745162"
