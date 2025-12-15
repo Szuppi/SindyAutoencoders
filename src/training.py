@@ -2,7 +2,16 @@ import numpy as np
 import tensorflow as tf
 import pickle
 from autoencoder import full_network, define_loss
+import hashlib
 
+
+def tensor_hash(arr, n_bytes=8):
+    """
+    Compute a short, human-readable hash of a numpy array.
+    """
+    m = hashlib.sha256()
+    m.update(arr.tobytes())
+    return m.hexdigest()[:2*n_bytes]
 
 def train_network(training_data, val_data, params):
     # SET UP NETWORK
@@ -27,6 +36,14 @@ def train_network(training_data, val_data, params):
     print('TRAINING')
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
+        vars_ = tf.trainable_variables()
+        first_var = vars_[0]   # e.g. first layer weights
+        first_val = sess.run(first_var)
+
+        print("Initial variable name:", first_var.name)
+        print("Initial variable hash:", tensor_hash(first_val))
+        print("Initial variable mean/std:",
+          np.mean(first_val), np.std(first_val))
         for i in range(params['max_epochs']):
             for j in range(params['epoch_size']//params['batch_size']):
                 batch_idxs = np.arange(j*params['batch_size'], (j+1)*params['batch_size'])

@@ -83,7 +83,7 @@ def simulate_lorenz(z0, t, sigma=10., beta=8/3, rho=28.):
     return z, dz, ddz
 
 
-def generate_lorenz_data(ics, t, n_points, linear=True, normalization=None,
+def generate_lorenz_data_orig(ics, t, n_points, linear=True, normalization=None,
                             sigma=10, beta=8/3, rho=28):
     """
     Generate high-dimensional Lorenz data set.

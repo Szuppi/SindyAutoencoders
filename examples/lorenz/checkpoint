@@ -1,2 +1,2 @@
-model_checkpoint_path: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_seed138_2025_12_11_10_11_00_594949"
-all_model_checkpoint_paths: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_seed138_2025_12_11_10_11_00_594949"
+model_checkpoint_path: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_mlp_nonlin_mixer_001step_epoch2101+501_noise0.001_seed152"
+all_model_checkpoint_paths: "c:\\Users\\local_user\\Desktop\\Study\\VII_semester\\DIL\\Codes\\SindyAutoencoders\\examples\\lorenz/lorenz_mlp_nonlin_mixer_001step_epoch2101+501_noise0.001_seed152"

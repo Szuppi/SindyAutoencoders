@@ -1,0 +1,75 @@
+
+EXPERIMENT 0, seed = 123
+TRAINING
+Initial variable name: encoder_W0:0
+Initial variable hash: 2be243c1168e106f
+Initial variable mean/std: 8.759493e-05 0.10291455
+Epoch 0
+   training loss 0.06128165125846863, (0.059938177, 1316.7963, 13.346346, 0.88401073)
+   validation loss 0.03700089827179909, (0.03573194, 1299.6445, 12.601152, 0.88401073)
+decoder loss ratio: 0.191334, decoder SINDy loss  ratio: 1.003411
+REFINEMENT
+Epoch 0
+   training loss 0.03561845049262047, (0.034367472, 209.3269, 12.509775, 0.88583034)
+   validation loss 0.021158192306756973, (0.019959323, 198.34233, 11.988691, 0.88583034)
+decoder loss ratio: 0.106877, decoder SINDy loss  ratio: 0.954642
+
+EXPERIMENT 1, seed = 124
+TRAINING
+Initial variable name: encoder_W0:0
+Initial variable hash: bc40b278c95059b6
+Initial variable mean/std: -0.0012937014 0.10307278
+Epoch 0
+   training loss 0.05980324372649193, (0.058075804, 1176.0653, 17.199724, 0.74667794)
+   validation loss 0.03594788908958435, (0.03423955, 971.36206, 17.008741, 0.74667794)
+decoder loss ratio: 0.183343, decoder SINDy loss  ratio: 1.354381
+REFINEMENT
+Epoch 0
+   training loss 0.026895271614193916, (0.025489323, 91.306496, 14.05948, 0.677072)
+   validation loss 0.016497433185577393, (0.015191844, 74.183, 13.055898, 0.677072)
+decoder loss ratio: 0.081348, decoder SINDy loss  ratio: 1.039622
+
+EXPERIMENT 2, seed = 125
+TRAINING
+Initial variable name: encoder_W0:0
+Initial variable hash: 0a8b2d79a58437c9
+Initial variable mean/std: 0.0007395275 0.10113735
+Epoch 0
+   training loss 0.05954282730817795, (0.05820177, 213.575, 13.324354, 0.8619587)
+   validation loss 0.03558806702494621, (0.03432241, 190.24709, 12.570366, 0.8619587)
+decoder loss ratio: 0.183787, decoder SINDy loss  ratio: 1.000960
+REFINEMENT
+Epoch 0
+   training loss 0.026471396908164024, (0.024927352, 197.43867, 15.440452, 0.7909078)
+   validation loss 0.01659681648015976, (0.015205913, 150.3775, 13.909031, 0.7909078)
+decoder loss ratio: 0.081423, decoder SINDy loss  ratio: 1.107555
+
+EXPERIMENT 3, seed = 126
+TRAINING
+Initial variable name: encoder_W0:0
+Initial variable hash: a503d442e022bfa7
+Initial variable mean/std: 3.180356e-05 0.10121227
+Epoch 0
+   training loss 0.06058943644165993, (0.058683515, 1908.9559, 18.988317, 0.7087721)
+   validation loss 0.03673567250370979, (0.034791097, 1604.9576, 19.37487, 0.7087721)
+decoder loss ratio: 0.186296, decoder SINDy loss  ratio: 1.542792
+REFINEMENT
+Epoch 0
+   training loss 0.02824067510664463, (0.026787013, 96.68463, 14.53662, 0.60128653)
+   validation loss 0.017247382551431656, (0.015900772, 79.56951, 13.466099, 0.60128653)
+decoder loss ratio: 0.085144, decoder SINDy loss  ratio: 1.072285
+
+EXPERIMENT 4, seed = 127
+TRAINING
+Initial variable name: encoder_W0:0
+Initial variable hash: 226d6d431f9fd63f
+Initial variable mean/std: 0.0018368567 0.10243248
+Epoch 0
+   training loss 0.06967811286449432, (0.06833854, 353.72903, 13.312805, 0.8292389)
+   validation loss 0.04429755359888077, (0.04303435, 309.2828, 12.54913, 0.8292389)
+decoder loss ratio: 0.230437, decoder SINDy loss  ratio: 0.999269
+REFINEMENT
+Epoch 0
+   training loss 0.02152855135500431, (0.020281704, 157.50548, 12.468475, 0.83100295)
+   validation loss 0.014170368202030659, (0.012978451, 127.67385, 11.9191675, 0.83100295)
+decoder loss ratio: 0.069496, decoder SINDy loss  ratio: 0.949106
